@@ -3,6 +3,15 @@ package java_week2_objects;
 public class Vehicle {
 	String colour;
 	int numOfWheels;
+	int id;
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
 
 	public int getNumOfWheels() {
 		return numOfWheels;
