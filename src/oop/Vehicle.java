@@ -1,9 +1,20 @@
 package oop;
 
-public class Vehicle {
+public abstract class Vehicle {
 	String colour;
 	int numOfWheels;
 	int id;
+
+	public Vehicle(String colour, int numOfWheels) {
+		this.colour = colour;
+		this.numOfWheels = numOfWheels;
+	}
+
+//	super();
+//	this.colour = colour;
+//	this.numOfWheels = numOfWheels;
+
+	public abstract float calculateBill();
 
 	public int getId() {
 		return id;
