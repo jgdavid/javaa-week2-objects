@@ -1,4 +1,4 @@
-package java_week2_objects;
+package oop;
 
 public class object_exercise {
 	public static void main(String[] args) {

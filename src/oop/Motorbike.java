@@ -1,4 +1,4 @@
-package java_week2_objects;
+package oop;
 
 public class Motorbike extends Vehicle {
 	public void helmet() {

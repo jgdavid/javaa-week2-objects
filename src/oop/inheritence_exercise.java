@@ -1,4 +1,4 @@
-package java_week2_objects;
+package oop;
 
 public class inheritence_exercise {
 	public static void main(String[] args) {
@@ -22,7 +22,7 @@ public class inheritence_exercise {
 		garage.vehicles.add(b);
 		garage.vehicles.add(m);
 
-		System.out.println(garage.method("Blue"));
+		System.out.println(garage.Colour("Blue"));
 		System.out.println(b.colour);
 		System.out.println(c.colour);
 		System.out.println(m.colour);

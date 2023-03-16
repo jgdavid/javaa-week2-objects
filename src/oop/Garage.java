@@ -1,4 +1,4 @@
-package java_week2_objects;
+package oop;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,7 @@ public class Garage {
 
 	public List<Vehicle> vehicles = new ArrayList<Vehicle>();
 
-	public boolean method(String colour) {
+	public boolean Colour(String colour) {
 		for (Vehicle v : vehicles) {
 			if (v.colour.equalsIgnoreCase(colour))
 				;
